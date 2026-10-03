@@ -5,7 +5,7 @@
 [![data: CC0-1.0](https://img.shields.io/badge/data-CC0--1.0-lightgrey)](https://github.com/socks5ip/proxy-ip-pricing)
 
 Open dataset **as a package**: monthly price ranges, protocol support, coverage and official
-registration links for **19 proxy IP providers serving the Chinese market**.
+registration links for **23 proxy IP providers serving the Chinese market**.
 
 Ships JSON + CSV, zero dependencies, no API key. Maintained by
 [全网低价IP / socks5ip](https://socks5ip.com.cn/) — a proxy IP comparison platform.
@@ -21,7 +21,7 @@ npm install proxy-ip-pricing-cn
 ```js
 const pricing = require('proxy-ip-pricing-cn');
 
-pricing.meta.count;                 // 19
+pricing.meta.count;                 // 23
 pricing.meta.lastUpdated;           // '2026-10-03'
 
 pricing.cheapestMonthly(5);         // cheapest "per month" tiers, low → high
@@ -69,7 +69,7 @@ npx proxy-ip-pricing --prompt            # LLM-ready compact text
 3. **Registration links contain referral codes.** Using them costs the buyer nothing extra and
    supports maintenance of this dataset. This is disclosed in the field data and below.
 4. **Providers change prices constantly.** Always confirm on the provider's own page before purchase.
-   18 of 19 providers offer free trials (优享云IP is the exception, a ¥2 day card is available) — test the line quality first.
+   22 of 23 providers offer free trials (优享云IP is the exception, a ¥2 day card is available) — test the line quality first.
 
 ## Update cadence
 
