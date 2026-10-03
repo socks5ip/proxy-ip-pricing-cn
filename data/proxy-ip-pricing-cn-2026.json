@@ -1,6 +1,6 @@
 {
  "dataset": "Proxy IP Pricing (China Market) 2026",
- "description": "Monthly price ranges, protocol support, coverage and official registration links for 19 proxy IP providers serving the Chinese market.",
+ "description": "Monthly price ranges, protocol support, coverage and official registration links for 23 proxy IP providers serving the Chinese market.",
  "maintainer": {
   "name": "全网低价IP / socks5ip",
   "url": "https://socks5ip.com.cn/",
@@ -25,7 +25,7 @@
   "price_page_path": "price_page_path",
   "source_article_title": "source_article_title"
  },
- "count": 19,
+ "count": 23,
  "records": [
   {
    "provider": "奔富IP",
@@ -349,7 +349,75 @@
    "price_page_url": "https://socks5ip.com.cn/guoneiip/youxiangyunjiagebiao/",
    "currency": "CNY",
    "country": "CN"
+  },
+  {
+   "provider": "蛟龙IP",
+   "provider_en": "JiaolongIP",
+   "price_from_cny": "2.8",
+   "price_unit": "元/月起",
+   "price_range_note": "2.8 元/月起（月卡最低档；独享线路，面向游戏 / 视频加速；月卡切换次数不限）",
+   "coverage": "国内多地区，独享线路（游戏 / 视频加速）",
+   "protocols": "SOCKS5 / HTTP / L2TP / PPTP",
+   "free_trial": "支持",
+   "register_url": "https://jiaolongip.com/user/login?p=adminA1&code=adminA1",
+   "invite_code": "adminA1",
+   "price_page_path": "/guoneiip/jiaolongipjiagebiao/",
+   "source_article_title": "",
+   "price_page_url": "https://socks5ip.com.cn/guoneiip/jiaolongipjiagebiao/",
+   "currency": "CNY",
+   "country": "CN"
+  },
+  {
+   "provider": "天机IP",
+   "provider_en": "TianjiIP",
+   "price_from_cny": "4",
+   "price_unit": "元/月起",
+   "price_range_note": "4 元/月起（大带宽静态住宅；约 2000 次/月切换额度）",
+   "coverage": "国内多地区，大带宽静态住宅（多工具兼容）",
+   "protocols": "SOCKS5 / HTTP / L2TP / PPTP",
+   "free_trial": "支持",
+   "register_url": "http://www.tianjiip.com/#/register?invitation=adminA0&shareid=62",
+   "invite_code": "adminA0",
+   "price_page_path": "/guoneiip/tianjiipjiagebiao/",
+   "source_article_title": "",
+   "price_page_url": "https://socks5ip.com.cn/guoneiip/tianjiipjiagebiao/",
+   "currency": "CNY",
+   "country": "CN"
+  },
+  {
+   "provider": "长城IP",
+   "provider_en": "ChangchengIP",
+   "price_from_cny": "5",
+   "price_unit": "元/月起",
+   "price_range_note": "5 元/月起（套餐分档细；切换 10–1000 次/天按档位）",
+   "coverage": "全国多地区覆盖（套餐分档细）",
+   "protocols": "SOCKS5 / HTTP / L2TP / PPTP",
+   "free_trial": "支持",
+   "register_url": "https://user.ccpptp.com/register?invitation_code=FS5ErERm",
+   "invite_code": "FS5ErERm",
+   "price_page_path": "/guoneiip/changchengipjiagebiao/",
+   "source_article_title": "",
+   "price_page_url": "https://socks5ip.com.cn/guoneiip/changchengipjiagebiao/",
+   "currency": "CNY",
+   "country": "CN"
+  },
+  {
+   "provider": "酷熊IP",
+   "provider_en": "KuxiongIP",
+   "price_from_cny": "20",
+   "price_unit": "元/月起",
+   "price_range_note": "20 元/月起（静态住宅不限流量；隧道切换不限次、普通 20 次/天）",
+   "coverage": "静态住宅（不限流量）",
+   "protocols": "SOCKS5 / HTTP / L2TP / PPTP",
+   "free_trial": "支持",
+   "register_url": "https://user.kuxiongip.com/register?promoteCode=l9avX8dG",
+   "invite_code": "l9avX8dG",
+   "price_page_path": "/guoneiip/kuxiongipjiage/",
+   "source_article_title": "",
+   "price_page_url": "https://socks5ip.com.cn/guoneiip/kuxiongipjiage/",
+   "currency": "CNY",
+   "country": "CN"
   }
  ],
- "notes": " 2026-09-17: price_page_url verified for all providers; two broken links corrected (55UIP, CanghaiIP). 2026-10-01: monthly refresh — all 18 providers re-checked against the site's own price articles. 11 providers have a starting price stated in an article title (BenfuIP 2.6, TianxingIP 6, CanghaiIP 4, WushuangIP 5.3, GuangsuoIP 1.68, GuangziIP 4, TangguoIP 5, JingyunIP 6, BaizhaowangIP 5, CrownOverseasIP 12, WuyouIP 0.6/day) and all confirmed the published value — no price movement this cycle. The remaining 7 providers had no title-stated price this cycle; their previously verified values are retained unchanged. All 18 registration links re-verified HTTP 200. 2026-10-03: added a 19th provider — 优享云IP (YouxiangyunIP, ¥6/month, SOCKS5/HTTP, 国内 260+ 城市). Price page article #1585 re-checked; registration link re-verified HTTP 200. Note: this provider does NOT offer a free trial (a ¥2 day card is available instead) — the \"all providers offer a free trial\" statement has been corrected."
+ "notes": " 2026-09-17: price_page_url verified for all providers; two broken links corrected (55UIP, CanghaiIP). 2026-10-01: monthly refresh — all 18 providers re-checked against the site's own price articles. 11 providers have a starting price stated in an article title (BenfuIP 2.6, TianxingIP 6, CanghaiIP 4, WushuangIP 5.3, GuangsuoIP 1.68, GuangziIP 4, TangguoIP 5, JingyunIP 6, BaizhaowangIP 5, CrownOverseasIP 12, WuyouIP 0.6/day) and all confirmed the published value — no price movement this cycle. The remaining 7 providers had no title-stated price this cycle; their previously verified values are retained unchanged. All 18 registration links re-verified HTTP 200. 2026-10-03: added a 19th provider — 优享云IP (YouxiangyunIP, ¥6/month, SOCKS5/HTTP, 国内 260+ 城市). Price page article #1585 re-checked; registration link re-verified HTTP 200. Note: this provider does NOT offer a free trial (a ¥2 day card is available instead) — the \"all providers offer a free trial\" statement has been corrected. 2026-10-03 (B): dataset extended 19 → 23 providers — added 蛟龙IP (JiaolongIP), 天机IP (TianjiIP), 长城IP (ChangchengIP) and 酷熊IP (KuxiongIP), all four tracked on the site's own cross-provider comparison page. All four offer a free trial and support PPTP, so the PPTP note in README was updated."
 }
