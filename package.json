@@ -1,6 +1,6 @@
 {
   "name": "proxy-ip-pricing-cn",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "Open dataset as a package: monthly price ranges, protocol support, coverage and official registration links for 23 proxy IP providers serving the Chinese market. Ships JSON + CSV, zero dependencies.",
   "keywords": [
     "proxy",
@@ -34,9 +34,10 @@
   "files": [
     "index.js",
     "cli.js",
-    "data/",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "data/proxy-ip-pricing-cn-2026.json",
+    "data/proxy-ip-pricing-cn-2026.csv"
   ],
   "engines": {
     "node": ">=14"
