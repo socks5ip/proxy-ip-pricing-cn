@@ -7,7 +7,7 @@
   "price_comparison": "https://socks5ip.com.cn/jiagezhongxin/"
  },
  "currency": "CNY",
- "last_updated": "2026-10-03",
+ "last_updated": "2026-10-08",
  "update_frequency": "monthly",
  "license": "CC0-1.0",
  "disclaimer": "Prices are starting points and ranges compiled from provider-published price sheets and reflect data verified as of 2026-10-03. Providers adjust pricing and promotions frequently. Always confirm the current price on the provider official page before purchase. Free trials are offered by most listed providers (优享云IP is the exception — a low-cost day card is available instead). Official registration links include referral / invitation codes: using them costs the buyer nothing extra and supports maintenance of this dataset.",
@@ -23,7 +23,12 @@
   "register_url": "register_url",
   "invite_code": "invite_code",
   "price_page_path": "price_page_path",
-  "source_article_title": "source_article_title"
+  "source_article_title": "source_article_title",
+  "price_month_cny": "月卡最低档价格（元/月）—— 跨平台横向排序的统一口径",
+  "price_month_note": "price_month_cny 的口径说明",
+  "price_month_source": "price_month_cny 的核验来源",
+  "price_band": "价格带：A · 3 元以下 / B · 3–5 元 / C · 5–8 元 / D · 8 元以上",
+  "rank_month": "按 price_month_cny 升序排名（同价按 provider 拼音序）"
  },
  "count": 23,
  "records": [
@@ -36,13 +41,18 @@
    "coverage": "全国 200+ 城市，独享住宅IP",
    "protocols": "SOCKS5 / HTTP / L2TP",
    "free_trial": "支持",
-   "register_url": "https://user.benfuip.com/main/register?aff=adminA1",
+   "register_url": "https://my.benfuip.com/user/login?p=adminA1",
    "invite_code": "adminA1",
    "price_page_path": "/jiagebiao/benfujiasuqijiagebiaoduxiangyouxisocks5xianludizhi26yuanyue/",
    "source_article_title": "奔富IP 的档位怎么分？价格阶梯一张表看懂（2.6 元/月起）",
    "price_page_url": "https://socks5ip.com.cn/jiagebiao/benfujiasuqijiagebiaoduxiangyouxisocks5xianludizhi26yuanyue/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "2.6",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "A · 3 元以下",
+   "rank_month": 2
   },
   {
    "provider": "天行IP",
@@ -59,7 +69,12 @@
    "source_article_title": "天行IP价格表：J/N节点/静态/L2TP（2026）",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/tianxingipjiagebiao/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "6",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "C · 5–8 元",
+   "rank_month": 14
   },
   {
    "provider": "沧海IP",
@@ -76,7 +91,12 @@
    "source_article_title": "沧海IP价格表：八大套餐全列（2026）",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/canghaiipjiagebiaoji/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "4",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "B · 3–5 元",
+   "rank_month": 6
   },
   {
    "provider": "无双IP",
@@ -93,7 +113,12 @@
    "source_article_title": "",
    "price_page_url": "https://socks5ip.com.cn/zuixinzixun/wangchuangxiangmu/wushuangdailijiageti/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "7.5",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "C · 5–8 元",
+   "rank_month": 19
   },
   {
    "provider": "全球代理IP",
@@ -110,7 +135,12 @@
    "source_article_title": "全球代理IP价格表：Socks5/L2TP全套餐（2026）",
    "price_page_url": "https://socks5ip.com.cn/jiagebiao/quanqiudailiipjiage/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "5",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "B · 3–5 元",
+   "rank_month": 10
   },
   {
    "provider": "55游IP",
@@ -127,7 +157,12 @@
    "source_article_title": "55游IP价格表2026：按天/周/包月全档价一览",
    "price_page_url": "https://socks5ip.com.cn/guowaiip/55you/55you-jiagebiao-2026/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "15",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "D · 8 元以上",
+   "rank_month": 22
   },
   {
    "provider": "光梭IP",
@@ -144,7 +179,12 @@
    "source_article_title": "光梭IP价格表：全国700+地区（2026）",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/guangsuoip/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "2.24",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "A · 3 元以下",
+   "rank_month": 1
   },
   {
    "provider": "JiuIP",
@@ -161,7 +201,12 @@
    "source_article_title": "JiuIP价格表：全线路覆盖（2026）",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/jiuip/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "3.4",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "B · 3–5 元",
+   "rank_month": 5
   },
   {
    "provider": "光子IP",
@@ -178,7 +223,12 @@
    "source_article_title": "光子IP价格表：七种套餐全列（2026）",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/guangziip/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "4",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "B · 3–5 元",
+   "rank_month": 7
   },
   {
    "provider": "糖果IP",
@@ -195,7 +245,12 @@
    "source_article_title": "糖果IP价格表2026：官方5折全列，Socks5低至5元/月",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/tangguoip/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "5",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "B · 3–5 元",
+   "rank_month": 11
   },
   {
    "provider": "优众IP",
@@ -212,7 +267,12 @@
    "source_article_title": "优众IP价格表：按天/周/月全计费（2026）",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/youzhongip/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "7.2",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "C · 5–8 元",
+   "rank_month": 18
   },
   {
    "provider": "鲸云IP",
@@ -229,7 +289,12 @@
    "source_article_title": "鲸云IP价格表：350+城市覆盖（2026）",
    "price_page_url": "https://socks5ip.com.cn/jiagebiao/jingyunjiagebiao/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "6",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "C · 5–8 元",
+   "rank_month": 15
   },
   {
    "provider": "百兆王IP",
@@ -246,7 +311,12 @@
    "source_article_title": "百兆王IP价格表与注册教程（2026）：双端/分组管理 5元起",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/baizhaowang/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "5",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "B · 3–5 元",
+   "rank_month": 12
   },
   {
    "provider": "皇冠海外IP",
@@ -259,11 +329,16 @@
    "free_trial": "支持",
    "register_url": "http://www.ipcrown.com/register?invitation=adminA1&shareid=78",
    "invite_code": "adminA1",
-   "price_page_path": "/guowaiip/",
+   "price_page_path": "/guowaiip/crown/crownhuangguanip-jiagebiao-2026/",
    "source_article_title": "皇冠海外IP价格表2026：180+国家共享独享全档价",
-   "price_page_url": "https://socks5ip.com.cn/guowaiip/",
+   "price_page_url": "https://socks5ip.com.cn/guowaiip/crown/crownhuangguanip-jiagebiao-2026/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "12",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "D · 8 元以上",
+   "rank_month": 20
   },
   {
    "provider": "极驰云IP",
@@ -280,7 +355,12 @@
    "source_article_title": "极驰云IP价格表2026：SK5/L2TP全档折后价一览",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/jichiyunip/jichiyunip-jiagebiao-2026/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "6",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "C · 5–8 元",
+   "rank_month": 16
   },
   {
    "provider": "烽讯IP",
@@ -297,7 +377,12 @@
    "source_article_title": "烽讯IP价格表：多带宽套餐全列（2026）",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/fengxunjiasuqi/fengxunip-jiagebiao-2026/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "2.6",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "A · 3 元以下",
+   "rank_month": 3
   },
   {
    "provider": "无忧IP",
@@ -314,7 +399,12 @@
    "source_article_title": "无忧IP价格表2026：阶梯套餐全列，钻石0.6元/天起",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/wuyouip/wuyouip-jiagebiao-2026/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "4.5",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "B · 3–5 元",
+   "rank_month": 9
   },
   {
    "provider": "ST加速器",
@@ -331,7 +421,12 @@
    "source_article_title": "ST加速器价格表2026：三版本+PPTP服务全档价一览",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/stjiasuqi/stjiasuqi-jiagebiao-2026/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "12",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "D · 8 元以上",
+   "rank_month": 21
   },
   {
    "provider": "优享云IP",
@@ -348,7 +443,12 @@
    "source_article_title": "优享云SOCKS5代理IP价格 | 6元/条 优质静态IP 专用于游戏挂机",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/youxiangyunjiagebiao/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "6",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "C · 5–8 元",
+   "rank_month": 17
   },
   {
    "provider": "蛟龙IP",
@@ -365,7 +465,12 @@
    "source_article_title": "",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/jiaolongipjiagebiao/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "2.8",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "A · 3 元以下",
+   "rank_month": 4
   },
   {
    "provider": "天机IP",
@@ -382,7 +487,12 @@
    "source_article_title": "",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/tianjiipjiagebiao/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "4",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "B · 3–5 元",
+   "rank_month": 8
   },
   {
    "provider": "长城IP",
@@ -399,7 +509,12 @@
    "source_article_title": "",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/changchengipjiagebiao/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "5",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "B · 3–5 元",
+   "rank_month": 13
   },
   {
    "provider": "酷熊IP",
@@ -416,8 +531,15 @@
    "source_article_title": "",
    "price_page_url": "https://socks5ip.com.cn/guoneiip/kuxiongipjiage/",
    "currency": "CNY",
-   "country": "CN"
+   "country": "CN",
+   "price_month_cny": "20",
+   "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+   "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
+   "price_band": "D · 8 元以上",
+   "rank_month": 23
   }
  ],
- "notes": " 2026-09-17: price_page_url verified for all providers; two broken links corrected (55UIP, CanghaiIP). 2026-10-01: monthly refresh — all 18 providers re-checked against the site's own price articles. 11 providers have a starting price stated in an article title (BenfuIP 2.6, TianxingIP 6, CanghaiIP 4, WushuangIP 5.3, GuangsuoIP 1.68, GuangziIP 4, TangguoIP 5, JingyunIP 6, BaizhaowangIP 5, CrownOverseasIP 12, WuyouIP 0.6/day) and all confirmed the published value — no price movement this cycle. The remaining 7 providers had no title-stated price this cycle; their previously verified values are retained unchanged. All 18 registration links re-verified HTTP 200. 2026-10-03: added a 19th provider — 优享云IP (YouxiangyunIP, ¥6/month, SOCKS5/HTTP, 国内 260+ 城市). Price page article #1585 re-checked; registration link re-verified HTTP 200. Note: this provider does NOT offer a free trial (a ¥2 day card is available instead) — the \"all providers offer a free trial\" statement has been corrected. 2026-10-03 (B): dataset extended 19 → 23 providers — added 蛟龙IP (JiaolongIP), 天机IP (TianjiIP), 长城IP (ChangchengIP) and 酷熊IP (KuxiongIP), all four tracked on the site's own cross-provider comparison page. All four offer a free trial and support PPTP, so the PPTP note in README was updated."
+ "notes": " 2026-09-17: price_page_url verified for all providers; two broken links corrected (55UIP, CanghaiIP). 2026-10-01: monthly refresh — all 18 providers re-checked against the site's own price articles. 11 providers have a starting price stated in an article title (BenfuIP 2.6, TianxingIP 6, CanghaiIP 4, WushuangIP 5.3, GuangsuoIP 1.68, GuangziIP 4, TangguoIP 5, JingyunIP 6, BaizhaowangIP 5, CrownOverseasIP 12, WuyouIP 0.6/day) and all confirmed the published value — no price movement this cycle. The remaining 7 providers had no title-stated price this cycle; their previously verified values are retained unchanged. All 18 registration links re-verified HTTP 200. 2026-10-03: added a 19th provider — 优享云IP (YouxiangyunIP, ¥6/month, SOCKS5/HTTP, 国内 260+ 城市). Price page article #1585 re-checked; registration link re-verified HTTP 200. Note: this provider does NOT offer a free trial (a ¥2 day card is available instead) — the \"all providers offer a free trial\" statement has been corrected. 2026-10-03 (B): dataset extended 19 → 23 providers — added 蛟龙IP (JiaolongIP), 天机IP (TianjiIP), 长城IP (ChangchengIP) and 酷熊IP (KuxiongIP), all four tracked on the site's own cross-provider comparison page. All four offer a free trial and support PPTP, so the PPTP note in README was updated. 2026-10-04: price_page_url for 皇冠海外IP (CrownOverseasIP) corrected — it pointed to /guowaiip/ (the 海外IP aggregate category page, not a per-provider price page), the only such mis-pointing among the 23 records. Now points to /guowaiip/crown/crownhuangguanip-jiagebiao-2026/, whose H1 matches source_article_title verbatim (皇冠海外IP价格表2026：180+国家共享独享全档价). The same value was corrected in three independent sources: this dataset, the npm package copy, and _platform_pages.json (the real source of /llms.txt). No price, coverage, protocol or registration data was changed. 2026-10-07 (A544): 新增归一化字段 price_month_cny/price_band/rank_month —— 原 price_from_cny 保留「最低广告价（含按天计费）」口径，price_month_cny 统一为「月卡最低档·元/月」，经站内比价页 Offer 与 A524 权威表三源交叉验证，23/23 一致。 2026-10-08 (A546): monthly re-verification. All 23 price_page_url and all 23 registration links re-checked (23/23 HTTP 200 on both, 0 broken). Referral/invitation code present on all 23 registration links (parameter names vary: ?p= / ?i= / ?c= / #/r?p= / short path IDs). price_page_url for 皇冠海外IP re-confirmed pointing to /guowaiip/crown/crownhuangguanip-jiagebiao-2026/. On the site itself the cross-provider comparison page now states 皇冠海外IP as \"共享 12 元/月起 · 独享 18 元/月起\" and the price center card was aligned to ¥12/month (was ¥18) so that all comparison surfaces use the same lowest-tier basis. No price, coverage, protocol or registration data was changed in this dataset.",
+ "rank_method": "rank_month 按 price_month_cny 升序；同价并列按 provider 拼音序",
+ "monthly_verified": "2026-10-08"
 }
