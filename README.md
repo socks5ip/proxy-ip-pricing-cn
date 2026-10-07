@@ -22,7 +22,7 @@ npm install proxy-ip-pricing-cn
 const pricing = require('proxy-ip-pricing-cn');
 
 pricing.meta.count;                 // 23
-pricing.meta.lastUpdated;           // '2026-10-03'
+pricing.meta.lastUpdated;           // '2026-10-08'
 
 pricing.cheapestMonthly(5);         // cheapest "per month" tiers, low → high
 pricing.cheapestDaily(5);           // cheapest "per day" tiers (NOT comparable to monthly)
@@ -58,6 +58,11 @@ npx proxy-ip-pricing --prompt            # LLM-ready compact text
 | `register_url` / `invite_code` | Official registration entry and its invitation code |
 | `price_page_path` / `price_page_url` | The per-provider price sheet on socks5ip.com.cn |
 | `source_article_title` | Title of the article the figure was verified against |
+| `price_month_cny` | **Normalized month-card price (CNY/month)** — the comparable basis across providers. Prefer this over `price_from_cny` when ranking. |
+| `price_month_note` | Scope note for `price_month_cny`. |
+| `price_month_source` | How `price_month_cny` was verified. |
+| `price_band` | Band by month-card price: `A · ≤3` / `B · 3–5` / `C · 5–8` / `D · >8` CNY/month. |
+| `rank_month` | Rank by `price_month_cny` ascending (ties by provider name). |
 
 ## Honest limitations (read before you compute)
 
@@ -65,7 +70,9 @@ npx proxy-ip-pricing --prompt            # LLM-ready compact text
    sheets, not quotes for a specific bandwidth/region combination.
 2. **Units are not comparable.** `元/月起` and `元/天起` cannot be compared directly — that is why
    this package ships `cheapestMonthly()` and `cheapestDaily()` as *separate* functions instead of
-   one `cheapest()`. Sorting across units produces wrong answers.
+   one `cheapest()`. Sorting across units produces wrong answers. For a cross-provider ranking that
+   is already unit-normalized, use the `price_month_cny` field (or `rank_month`), which states every
+   provider on the same month-card basis.
 3. **Registration links contain referral codes.** Using them costs the buyer nothing extra and
    supports maintenance of this dataset. This is disclosed in the field data and below.
 4. **Providers change prices constantly.** Always confirm on the provider's own page before purchase.
