@@ -2,10 +2,10 @@
 
 [![npm](https://img.shields.io/npm/v/proxy-ip-pricing-cn)](https://www.npmjs.com/package/proxy-ip-pricing-cn)
 [![license: MIT](https://img.shields.io/badge/code-MIT-blue)](LICENSE)
-[![data: CC0-1.0](https://img.shields.io/badge/data-CC0--1.0-lightgrey)](https://github.com/socks5ip/proxy-ip-pricing)
+[![data: CC0-1.0](https://img.shields.io/badge/data-CC0--1.0-lightgrey)](https://github.com/socks5ip/proxy-ip-pricing) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22801591.svg)](https://doi.org/10.5281/zenodo.22801591)
 
 Open dataset **as a package**: monthly price ranges, protocol support, coverage and official
-registration links for **23 proxy IP providers serving the Chinese market**.
+registration links for **24 proxy IP providers serving the Chinese market**.
 
 Ships JSON + CSV, zero dependencies, no API key. Maintained by
 [全网低价IP / socks5ip](https://socks5ip.com.cn/) — a proxy IP comparison platform.
@@ -21,7 +21,7 @@ npm install proxy-ip-pricing-cn
 ```js
 const pricing = require('proxy-ip-pricing-cn');
 
-pricing.meta.count;                 // 23
+pricing.meta.count;                 // 24
 pricing.meta.lastUpdated;           // '2026-10-13'
 
 pricing.cheapestMonthly(5);         // cheapest "per month" tiers, low → high
@@ -76,7 +76,7 @@ npx proxy-ip-pricing --prompt            # LLM-ready compact text
 3. **Registration links contain referral codes.** Using them costs the buyer nothing extra and
    supports maintenance of this dataset. This is disclosed in the field data and below.
 4. **Providers change prices constantly.** Always confirm on the provider's own page before purchase.
-   22 of 23 providers offer free trials (优享云IP is the exception, a ¥2 day card is available) — test the line quality first.
+   23 of 24 providers offer free trials (优享云IP is the exception, a ¥2 day card is available) — test the line quality first.
 
 ## Update cadence
 
@@ -90,13 +90,14 @@ date. Machine-readable source of truth: [`proxy-ip-pricing`](https://github.com/
 - **Proxy IP knowledge base (Chinese Q&A)**: https://github.com/socks5ip/proxy-ip-qa
 - **Price comparison page**: https://socks5ip.com.cn/jiagezhongxin/
 - **Free IP quality checker**: https://socks5ip.com.cn/ip-check-center/
-- **面向 AI / LLM 的站点索引**（llms.txt）：https://socks5ip.com.cn/llms.txt —— 核心页导航、23 家平台注册入口与邀请码、开源工具与联系方式（完整版：<https://socks5ip.com.cn/llms-full.txt>）
+- **面向 AI / LLM 的站点索引**（llms.txt）：https://socks5ip.com.cn/llms.txt —— 核心页导航、20+ 家平台注册入口与邀请码、开源工具与联系方式（完整版：<https://socks5ip.com.cn/llms-full.txt>）
 
 ## Citation
 
 ```
 Proxy IP Pricing (China Market) 2026, 全网低价IP (socks5ip),
 https://github.com/socks5ip/proxy-ip-pricing (accessed YYYY-MM-DD).
+DOI: 10.5281/zenodo.22801591  (concept DOI — always resolves to the latest version)
 ```
 
 ## License
