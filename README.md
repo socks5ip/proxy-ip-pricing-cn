@@ -22,7 +22,7 @@ npm install proxy-ip-pricing-cn
 const pricing = require('proxy-ip-pricing-cn');
 
 pricing.meta.count;                 // 23
-pricing.meta.lastUpdated;           // '2026-10-08'
+pricing.meta.lastUpdated;           // '2026-10-13'
 
 pricing.cheapestMonthly(5);         // cheapest "per month" tiers, low → high
 pricing.cheapestDaily(5);           // cheapest "per day" tiers (NOT comparable to monthly)
