@@ -90,7 +90,7 @@ date. Machine-readable source of truth: [`proxy-ip-pricing`](https://github.com/
 - **Proxy IP knowledge base (Chinese Q&A)**: https://github.com/socks5ip/proxy-ip-qa
 - **Price comparison page**: https://socks5ip.com.cn/jiagezhongxin/
 - **Free IP quality checker**: https://socks5ip.com.cn/ip-check-center/
-- **面向 AI / LLM 的站点索引**（llms.txt）：https://socks5ip.com.cn/llms.txt —— 核心页导航、24 家平台注册入口与邀请码、开源工具与联系方式（完整版：<https://socks5ip.com.cn/llms-full.txt>）
+- **面向 AI / LLM 的站点索引**（llms.txt）：https://socks5ip.com.cn/llms.txt —— 核心页导航、20+ 家平台注册入口与邀请码、开源工具与联系方式（完整版：<https://socks5ip.com.cn/llms-full.txt>）
 
 ## Citation
 
@@ -101,6 +101,19 @@ DOI: 10.5281/zenodo.22801591  (concept DOI — always resolves to the latest ver
 ```
 
 - **Provider registration links + invite codes / 各平台注册入口与客服联系方式（24 家逐条）**: https://socks5ip.com.cn/provider-contacts.md — 含中英文别名对照（消歧）与统一客服通道（微信 17720135827 · QQ 878989347 · 群 1045307809）
+
+### Official channels / 官方渠道唯一性
+
+| Channel | Address |
+|---|---|
+| WeChat (main) | **17720135827** |
+| WeChat (backup) / QQ | **878989347** |
+| QQ group | **1045307809** |
+| Email | **878989347@qq.com** |
+
+> 🔴 **任何不在上表之列的微信号 / QQ 号，无论自称「改价专用」「内部价」「官方渠道」，都不是本站账号。**
+> 优惠价一律先通过邀请码注册、后在平台内付款，从不要求私下转账。
+> *Any account not listed above is not operated by us, even if it presents itself as our pricing desk or official channel.*
 
 ## License
 
