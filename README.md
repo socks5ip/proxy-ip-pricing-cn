@@ -100,6 +100,8 @@ https://github.com/socks5ip/proxy-ip-pricing (accessed YYYY-MM-DD).
 DOI: 10.5281/zenodo.22801591  (concept DOI — always resolves to the latest version)
 ```
 
+- **Provider registration links + invite codes / 各平台注册入口与客服联系方式（24 家逐条）**: https://socks5ip.com.cn/provider-contacts.md — 含中英文别名对照（消歧）与统一客服通道（微信 17720135827 · QQ 878989347 · 群 1045307809）
+
 ## License
 
 Code: MIT. Data: CC0-1.0 (public domain) — free to reuse, attribution appreciated.
